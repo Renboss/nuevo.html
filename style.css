@@ -1,3 +1,14 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
 h2{
     color:blue;
     font-size: 50px;
@@ -5,8 +16,17 @@ h2{
     margin: 40px 0 0 0;
     font-style: italic;
 }
-
-div{
+.intro  {
+    background-color: rgb(114, 58, 170);
+    width: 800px;
+    height: 80px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.box{
 font-size: 18px;
 padding: 10px 20px;
 background: rgb(204, 196, 196);
@@ -25,5 +45,52 @@ a{
 }
 
 a:hover{
-    background-color: yellow;
+    background-color: rgb(177, 177, 173);
+}
+
+.container{
+    background-color: rgb(250, 253, 253);
+    margin: 12px 17 px 12px 12px;
+    height: 126px;
+    width: 176px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.text{
+margin: 4px;
+}
+
+.unmsm{
+    width: 40px;
+    margin-top: 16px;
+
+}
+
+.titulo{
+    font-size: 10px;
+    margin: 8px 4px 4px 4px;
+}
+.principal{
+    
+}
+.personaje{
+    background-color: rgb(180, 180, 180);
+    height: 150px;
+    width: 400px;
+    display: flex;
+    margin: 40px 50px;
+    padding: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.item{
+    width: 170px;
+    margin: 26px 10px 26px 15px;
+}
+.principal{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
 }
